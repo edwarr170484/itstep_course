@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+section{
+    margin-bottom: 30px;
+}
+/*Task 1 styles*/
+.frame-border{
+    border: 5px solid white;
+}
+.outer-frame{
+    border-color: orange;
+    border-left:none;
+    border-top: none;
+}
+.main-frame{
+    border-color: yellow;
+}
+.inner-frame{
+    border-color: orange;
+    border-bottom: none;
+    border-right: none;
+    padding:10px 15px;
+}
+
+/*Task2 styles*/
+.bg-dark{
+    background-color: rgb(5, 5, 5);
+    padding: 10px 15px;
+}
+.color-white{
+    color: white;
+}
+.color-red{
+    color: red;
+}
+.color-green{
+    color: green;
+}
+.color-yellow {
+    color: yellow;
+}
+/*Task2 styles end*/
+
+/*Task3 styles*/
+#task3 .container{
+    width: 400px;
+}
+#task3 .header{
+    color: white;
+    background-color: rgb(9, 180, 9);
+    padding: 10px 15px;
+    font-size: 20px;
+}
+#task3 .text{
+    background-color: rgb(175, 175, 175);
+    margin-left:30px;
+    padding: 15px;
+    margin-top:-7px;
+}
+/*Task3 styles end*/
+
+/*Task4 styles*/
+.sqare{
+    width: 100px;
+    height: 100px;
+    border:2px solid gray;
+    background-color: white;
+}
+.sqare-padding{
+    padding:2px;
+}
+.sqare div{
+    background-color: black;
+    height: 100%;
+}
+.sqare-margin{
+    margin-top: -50px;
+    margin-left: 50px;
+}
+/*Task4 styles end*/
+
+/*Task5 styles*/
+#task5 img{
+    width: 200px;
+    border: 1px solid black;
+    /*float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;*/
+}
+
+#task5 div{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin:10px;
+    float: left;
+    /*display: inline-block;*/
+}
+#task5 div.bg-blue{
+    background-color: rgb(3, 68, 247);
+}
+/*Task5 styles end*/
