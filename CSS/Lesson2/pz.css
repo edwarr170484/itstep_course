@@ -81,6 +81,11 @@ section{
 /*Task4 styles end*/
 
 /*Task5 styles*/
+#task5::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
 #task5 img{
     width: 200px;
     border: 1px solid black;
@@ -101,3 +106,61 @@ section{
     background-color: rgb(3, 68, 247);
 }
 /*Task5 styles end*/
+
+/*Task6 styles*/
+#task6{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: url('./bg.webp') center center no-repeat;
+    background-size: cover;
+}
+.register-form{
+    background: #fff;
+    padding: 15px;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.register-form input{
+    border: 1px solid #ccc;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+}
+.register-form button{
+    color: #fff;
+    width: 100%;
+    background-color: #1cbc11;
+    border:none;
+    padding: 5px;
+    cursor: pointer;
+}
+/*Task6 styles end*/
+
+/*Task7 styles*/
+.pages{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pages li{
+    display: inline-block;
+}
+.pages li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    color: #333;
+    text-decoration: none;
+    padding: 11px;
+    padding-left: 16px;
+    font-weight: bold;
+}
+.pages li a.active{
+    background-color: #d10953;
+    color: #fff;
+}
+/*Task7 styles end*/
