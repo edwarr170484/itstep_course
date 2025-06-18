@@ -1,0 +1,43 @@
+:root{
+    --color-black: #000000;
+    --color-white: #ffffff;
+}
+
+header{
+    background: var(--color-black, #000000);
+    position: fixed;
+    left:0;
+    top:0;
+    padding: 15px 30px;
+    width: 100%;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--color-white, #ffffff);
+    font-size: 35px;
+}
+
+.menu-toggler{
+    width: 35px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    margin-top: -17px;
+}
+
+.menu-toggler hr{
+    border: none;
+    border-top: 2px solid var(--color-white);
+}
+.wrapper{
+    height: 100vh;
+    background-image: url('https://cdn.builtin.com/cdn-cgi/image/f=auto,fit=cover,w=1200,h=635,q=80/https://builtin.com/sites/www.builtin.com/files/2024-09/programming-languages.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
