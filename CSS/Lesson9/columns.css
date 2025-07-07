@@ -13,7 +13,8 @@ section{
     background-color: white;
 }
 .container{
-    width:1320px;
+    max-width: 1320px;
+    width: 100%;
     margin: 0 auto;
 }
 .section-header{
@@ -104,3 +105,4 @@ section{
     height: 55px;
     color: black;
 }
+

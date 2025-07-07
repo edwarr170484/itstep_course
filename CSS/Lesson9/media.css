@@ -1,0 +1,36 @@
+@media screen and (max-width: 1320px){
+    .section-header{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media(max-width: 1180px){
+    .columns{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media(max-width: 992px){
+    .column p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 690.98px){
+    .columns{
+        flex-direction: column;
+    }
+
+    .section-header {
+        text-align: center;
+        margin-top: 0;
+    }
+    section{
+        padding-top: 30px;
+    }
+    .column h3{
+        text-align: center;
+    }
+}
