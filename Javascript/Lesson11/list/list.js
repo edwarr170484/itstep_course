@@ -13,9 +13,15 @@ while(text = prompt('Введите значение для пункта спи�
     ul.append(li);
 }*/
 
-/*let data = {
+let data = {
     "Рыбы": {
-        "форель": {},
+        "форель": {
+            "вкусная": {},
+            "красная": {},
+            "дорогая": {
+                "цена": {}
+            }
+        },
         "лосось": {}
     },
     "Деревья": {
@@ -32,6 +38,24 @@ while(text = prompt('Введите значение для пункта спи�
 
 let div = document.getElementById("root");
 
+function newCreateTree(container, data) {
+    let ul = document.createElement("ul");
+
+    for(let key in data) {
+        let li = document.createElement("li");
+        li.innerText = key;
+
+        if(data[key]) {
+            newCreateTree(li, data[key]);
+        }
+
+        ul.append(li);
+    }
+
+    container.append(ul);
+}
+
+newCreateTree(div, data);
 
 function createTree(container, data){
     let ul = document.createElement("ul");
@@ -72,9 +96,9 @@ function createTree(container, data){
     container.append(ul);
 }
 
-createTree(div, data);*/
+createTree(div, data);
 
-function showNotification(options) {
+/*function showNotification(options) {
     let div = document.createElement("div");
 
     div.classList.add("notification");
@@ -120,4 +144,4 @@ function randomInteger(min, max) {
     return Math.floor(rand);
 }
 
-setInterval(notify, 1000);
+setInterval(notify, 1000);*/
