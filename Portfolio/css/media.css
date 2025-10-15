@@ -1,0 +1,89 @@
+@media(max-width: 1279.99px){
+    :root{
+        --container-max-width: 700px;
+    }
+
+    #intro{
+        padding-bottom: 80px;
+    }
+
+    .portfolio-thumb span {
+        font-size: 14px;
+    }
+
+    .portfolio-thumb h2 {
+        font-size: 36px;
+    }
+
+    #description p {
+        font-size: 36px;
+    }
+
+    footer nav a{
+        font-size: 36px;
+    }
+
+    footer .copyright{
+        font-size: 36px;
+    }
+}
+
+@media(max-width:799.99px){
+    .logo{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap:20px;
+    }
+
+    header{
+        padding-bottom: 0;
+    }
+
+    header, main, footer{
+        padding-left: var(--gutter);
+        padding-right: var(--gutter);
+    }
+
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    header .container{
+        border-bottom: 1px solid #4F4F4F;
+        padding-bottom:60px;
+        
+    }
+
+    header nav{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    #intro{
+        padding-top: 80px;
+    }
+
+    .portfolio-thumb{
+        flex-direction: column;
+    }
+
+    #description p {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+
+    footer nav{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    footer nav a{
+        font-size: 28px;
+    }
+
+    footer .copyright{
+        font-size: 28px;
+    }
+}
