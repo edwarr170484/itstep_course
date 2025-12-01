@@ -1,0 +1,84 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  background-color: green;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  -webkit-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li:first-child a {
+  color: black;
+}
+
+.blue-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block, .blue-block {
+  width: 200px;
+  height: 200px;
+}
+
+.block {
+  background-color: white;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.blue-block {
+  background-color: aqua;
+}
+/*# sourceMappingURL=custom.css.map */
