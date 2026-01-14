@@ -10,7 +10,7 @@ function AboutPage(){
         <>
             <h1>{content.title}</h1>
             <p>{content.text}</p>
-            <Button />
+            <Button startCount={0} step={1} />
         </>
     );
 }
